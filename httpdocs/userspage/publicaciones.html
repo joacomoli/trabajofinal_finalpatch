@@ -1,0 +1,71 @@
+<!doctype html>
+
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- para hacer un comentario meter <!-- para cerrar -->
+  <!-- si hago un html un p5js(js) y css si en el js no hago un canvas el html se superpone, si hago el canvas entonces el canvas hará que se superponga sobre el html -->
+  <title>pagina de la picante</title>
+  <!-- importante! -->
+  <link href="./css/index.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <header>
+    <h1><img src="http://emojismeanings.com/wp-content/uploads/2017/02/Fire-1.png" alt="fueguito">Publicaciones <img src="http://emojismeanings.com/wp-content/uploads/2017/02/Fire-1.png" alt="fueguito"></h1>
+  </header>
+</head>
+
+<body>
+  <nav class="barra">
+    <ul>
+      <li><a href=".\index.html"><input type="button" value="Home" class="button"></a></li>
+      <li><a href=".\fotos.html"><input type="button" value="Fotos" class="button"></a></li>
+      <!--<li><a href=".\juegos.html"><input type="button" value="juegos" class="button"></a></li> -->
+      <li><a href=".\publicaciones.html"><input type="button" value="Publicaciónes" class="selected"></a></h2>
+      </li>
+      </article>
+    </ul>
+  </nav>
+  <!-- acá deberían ir fotos que se agreguen y que vayan cambiando -->
+  <article class="fotos">
+
+  </article>
+  <h2><p>Suerte en sus presentaciónes chicos!!!</p></h2>
+
+<h2><p>Faltan<p id="demo"></p><p>para villa la Angostura!!!!</p></h2>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Oct 20, 2017 07:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "dias " + hours + "horas "
+    + minutes + "minutos " + seconds + "segundos ";
+
+    // If the count down is over, write some text
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "Nos fuímos";
+    }
+}, 1000);
+</script>
+</body>
+
+</html>

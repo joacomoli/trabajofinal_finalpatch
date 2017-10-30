@@ -1,0 +1,1 @@
+2017/10/11 18:12:39 [error] 10848#0: *1715969 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 152.168.49.4, server: xliii.dhalumnos.com, request: "GET /favicon.ico HTTP/1.1", upstream: "http://149.56.21.30:7080/favicon.ico", host: "xliii.dhalumnos.com", referrer: "http://xliii.dhalumnos.com/exposiciones.html"

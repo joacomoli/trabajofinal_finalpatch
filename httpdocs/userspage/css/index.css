@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Gudea');
+@import url('https://fonts.googleapis.com/css?family=Inknut+Antiqua');
+@import url('https://fonts.googleapis.com/css?family=Gudea');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  background-image: url(https://i.stack.imgur.com/dPltu.png);
+}
+
+.todo {
+  display: inline-block;
+}
+
+
+.informacion {
+  border: solid 1px black;
+  background-color: white;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 10px;
+}
+
+.descrpicion {
+  display: block;
+  background-color: red;
+}
+
+header {
+  display: block;
+  text-align: center;
+  background-size: auto;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
+  background: rgb(30, 87, 153);
+  /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(30, 87, 153, 1) 0%, rgba(41, 137, 216, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(30, 87, 153, 1) 0%, rgba(41, 137, 216, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(30, 87, 153, 1) 0%, rgba(41, 137, 216, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=0);
+  /* IE6-9 */
+  background-size: contain;
+  border-top: solid 4px black;
+  border-left: none;
+  border-right: none;
+  font-size: 30px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 10px;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 7px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.option {
+  color: white;
+  text-decoration: none;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.button {
+  text-decoration: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 25px;
+  padding-right: 60px;
+  display: block;
+}
+.exposiciones_button{
+  text-decoration: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 25px;
+  padding-right: 60px;
+  display: block;
+}
+.selected {
+  text-decoration: none;
+  background: none;
+  border: none;
+  color: yellow;
+  font-size: 28px;
+  padding-right: 60px;
+  display: block;
+}
+
+p {
+  background-color: white;
+  border-top: solid 3px black;
+  border-bottom: solid 3px black;
+}
+.big_info{
+  background-color: white;
+  border-top: solid 3px black;
+  border-bottom: solid 3px black;
+}
+
+.foto {
+margin-top: 10px;
+display: block;
+text-allign: center;
+height: 40%;
+width:60%;
+margin-top:5%;
+margin-bottom:5%;
+margin-left:20%;
+margin-right:20%;
+}
+.foto_carousel{
+  width:100%;
+  height:100%;
+  margin: 0%;
+}
+
+}
+* {
+  box-sizing: border-box;
+}
+@media (max-width: 1340px) {
+  .listanavegacion {
+    text-decoration: underline;
+    color: rgb(130, 7, 47);
+    font-family: 'Merienda', cursive;
+    padding-right: 20px;
+    font-size: 43px;
+    text-decoration: none;
+    border-right: none;
+    margin-right: 40px;
+    margin-left: 20px;
+  }
+header {
+display: block;
+font-size: 15px;
+}
+img{
+width: 15px;
+height: 15px;
+display: none;
+}
+.foto{
+width:100%;
+height:100%;
+margin: 0%;
+
+}
+.selected {
+  text-decoration: none;
+  background: none;
+  border: none;
+  color: yellow;
+  font-size: 20px;
+  padding-right: 30px;
+  display: block;
+}
+
+.big_info{
+  background-color: white;
+  border-top: solid 3px black;
+  border-bottom: solid 3px black;
+  font-size: 15px;
+}
+.foto_carousel{
+  width:100%;
+  height:100%;
+}
+.logos{
+  width: 100px;
+  height: 100px;
+  display: inline;
+}
+
+}
