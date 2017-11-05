@@ -29,6 +29,7 @@
         </ul>
  </nav>
 <article>
+  <!--
 <h2><p> <script>
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 5, 2017 15:37:25").getTime();
@@ -59,7 +60,7 @@ var x = setInterval(function() {
     }
 }, 1000);
 </script></p></h2>
-
+-->
 
 
 
