@@ -7,22 +7,10 @@
   <!-- si hago un html un p5js(js) y css si en el js no hago un canvas el html se superpone, si hago el canvas entonces el canvas hará que se superponga sobre el html -->
   <title>pagina de la picante</title>
   <!-- importante! -->
+  <script src="funciones.js" charset="utf-8"></script>
 
   <link href="./css/index.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script type="text/javascript">
-    function imgFunc() {
-      var bigImage = document.getElementById('bigImage');
-      var thumbnailsHolder = document.getElementById("thumbnailsHolder");
-      thumbnailsHolder.addEventListener("click", function(event) {
-          if (event.target.tagName == "IMG") {
-            bigImage.src = event.target.src;
-          }, false);
-      }
-
-    }
-    window.addEventListener("load", imgFunc, false);
-  </script>
 
   <header>
     Album de fotos
