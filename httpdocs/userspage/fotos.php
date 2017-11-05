@@ -1,4 +1,11 @@
+<?php
+$my_images_arr = scandir("images");
+$img_string = "";
 
+foreach ($my_images_arr as $img_name) {
+  $img_string .= '<img src="images/'.$image_name.'">';
+}
+ ?>
 <!doctype html>
 
 
@@ -33,10 +40,19 @@
    <h2><p>Aquí estarán la mayoría de las fotos del la Picante XLIII</p></h2>
  </article>
 <article class="fotos">
+  <div class="fotos">
+    <?php
+    echo $img_string;
+
+     ?>
+
+  </div>
+  <!--
   <img src="./images/WhatsApp Image 2017-10-04 at 10.02.03 PM.jpeg" alt="" class="foto">
 <img src="images\WhatsApp Image 2017-08-07 at 6.12.09 PM.jpeg" alt="foto grupal" class="foto">
 <img src="images\WhatsApp Image 2017-08-07 at 6.14.15 PM.jpeg" alt="foto grupal 4" class="foto">
 <p>Estamos trabajando para tener una pagina mas completa, por favor paciencia.</p>
+-->
 </article>
 
  </body>
