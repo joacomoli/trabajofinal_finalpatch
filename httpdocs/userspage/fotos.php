@@ -37,7 +37,7 @@ foreach ($my_images_arr as $img_name) {
         </ul>
  </nav>
  <article>
-   <h2><p>Aquí estarán la mayoría de las fotos del la Picante XLIII</p></h2>
+   <h2><p>prueba 1</p></h2>
  </article>
 <article class="fotos">
   <div class="fotos">
