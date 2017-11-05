@@ -140,7 +140,27 @@ margin-right:20%;
   height:100%;
   margin: 0%;
 }
-
+/* galeria de fotos */
+div#holder{
+  width: 600px;
+  height: 500px;
+  margin: auto;
+  background-color: silver;
+  padding: 10px;
+}
+div#theBigImageHolder{
+  width: 600px;
+  height: 400px;
+  background-color: white;
+}
+div#thumbnailsHolder{
+  width: 590px;
+  height:100px;
+  background-color: white;
+  margin: 5px auto;
+  padding: 5px;
+}
+}
 }
 * {
   box-sizing: border-box;

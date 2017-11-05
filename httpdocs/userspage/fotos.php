@@ -1,11 +1,4 @@
-<?php
-$my_images_arr = scandir("images");
-$img_string = "";
 
-foreach ($my_images_arr as $img_name) {
-  $img_string .= '<img src="images/'.$image_name.'">';
-}
- ?>
 <!doctype html>
 
 
@@ -19,6 +12,17 @@ foreach ($my_images_arr as $img_name) {
 
   <link href="./css/index.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <?php
+  $my_images_arr = scandir("images");
+  $img_string = "";
+
+  foreach ($my_images_arr as $img_name) {
+    if (strlen($image_name) > 2 {
+      $img_string .= '<img src="images/'.$image_name.'">';
+
+    }
+  }
+   ?>
 
   <header>
   Album de fotos
@@ -39,14 +43,19 @@ foreach ($my_images_arr as $img_name) {
  <article>
    <h2><p>prueba 1</p></h2>
  </article>
-<article class="fotos">
-  <div class="fotos">
-    <?php
-    echo $img_string;
+ <div id="gHolder">
+   <div id="theBigimageHolder">
+     <?php
+     echo '<img src="images/'.$my_images_arr[2].'" id="bigImage">';
+      ?>
 
-     ?>
+   </div>
+   <div id="thumbnailsHolder">
+     <?php echo $img_string; ?>
 
-  </div>
+   </div>
+
+ </div>
   <!--
   <img src="./images/WhatsApp Image 2017-10-04 at 10.02.03 PM.jpeg" alt="" class="foto">
 <img src="images\WhatsApp Image 2017-08-07 at 6.12.09 PM.jpeg" alt="foto grupal" class="foto">
