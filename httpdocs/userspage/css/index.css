@@ -140,7 +140,19 @@ margin-right:20%;
   height:100%;
   margin: 0%;
 }
+/* campo de la contraseña */
+.campo_password{
+  font-size: 30px;
+  border-radius: 50px;
 
+}
+.ingresar{
+  font-size: 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  background-color: gold;
+
+}
 
 /* galeria de fotos */
 
