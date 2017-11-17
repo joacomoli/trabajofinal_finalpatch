@@ -14,12 +14,12 @@
 
       </form>
       <?php
-      if ($password == "sapereaude") {
+      if ($password === "sapereaude") {
+        
 
 
 
       }
-
 
 
        ?>
